@@ -78,7 +78,7 @@ python main.py
 
 ## 🔭 Roadmap
 
-- [ ] Replace cube with custom humanoid robot model
+- [ ] Replace cube with custom humanoid robot model and other objects
 - [ ] Expand gesture library (e.g., wave, swipe)
 - [ ] Implement environment interaction (e.g., object picking)
 
