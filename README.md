@@ -1,38 +1,67 @@
-# 3D Hand Tracking Application
 
-A Python application that uses hand tracking to manipulate a 3D cube in real-time using hand gestures.
+# 🤖 Gesture-Controlled 3D Robot Simulation
 
-## Demo
-[![Watch the Demo](https://img.youtube.com/vi/nN92MZHrX_s/0.jpg)](https://www.youtube.com/watch?v=nN92MZHrX_s)
+This is a group project for the Computer Graphics course (KE-7112), focused on integrating computer vision with real-time 3D graphics. The system uses advanced hand tracking to control a virtual robot in a custom-rendered environment.
 
+## 🧠 Project Overview
 
-## Features
-- Real-time hand tracking using MediaPipe
-- 3D cube manipulation with OpenGL
-- Three interaction modes:
-  - Position control (single hand pinch)
-  - Rotation control (three finger pinch)
-  - Scale control (two handed pinch)
+Our application leverages **MediaPipe** for real-time hand gesture tracking and **PyOpenGL** for rendering 3D objects. The current implementation allows intuitive human-computer interaction by mapping gestures to 3D object transformations. This serves as a foundation for controlling a humanoid robot in future iterations.
 
-## Requirements
-- Python 3.12
+## 👥 Team & Roles
+
+- **Htoo Thet Naung** – Project Lead, Vision Integration, System Architecture
+- *(Add remaining team members and roles here)*
+
+## ✨ Features
+
+- 🎥 Real-time hand tracking using MediaPipe
+- 🧊 3D object manipulation using PyOpenGL
+- 🔧 Multiple interaction modes:
+  - **Position Control** – via single-hand pinch
+  - **Rotation Control** – via three-finger pinch
+  - **Scale Control** – via two-handed pinch
+- 💡 Designed for extensibility toward full humanoid robot simulation
+
+## 🖥️ System Requirements
+
+- Python 3.12+
 - Webcam
+- Compatible with macOS/Linux/Windows
 
-## Installation
-1. Clone this repository
+## 🚀 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/vision_control_graphic.git
+   cd vision_control_graphic
+   ```
 2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Usage
-Run the application:
+## ▶️ Usage
+
+To launch the application:
 ```bash
 python main.py
 ```
 
-### Controls
-- Single hand index finger pinch: Move cube
-- Three finger pinch: Rotate cube
-- Two handed index finger pinch: Scale cube
-- ESC: Exit application
+## 🎮 Gesture Controls
+
+| Gesture                              | Action            |
+|--------------------------------------|-------------------|
+| Single hand index finger pinch       |      |
+| Three-finger pinch                   |        |
+| Two-handed index finger pinch        |         |
+| ESC key                              | Exit application  |
+
+## 🔭 Roadmap
+
+- [ ] Replace cube with custom humanoid robot model
+- [ ] Expand gesture library (e.g., wave, swipe)
+- [ ] Implement environment interaction (e.g., object picking)
+
+## 📄 License
+
+MIT License — see `LICENSE` file for details.
