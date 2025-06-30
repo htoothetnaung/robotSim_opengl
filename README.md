@@ -1,4 +1,12 @@
 
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.12+-blue.svg" alt="Python Version">
+  <img src="https://img.shields.io/badge/OpenGL-Enabled-green.svg" alt="OpenGL">
+  <img src="https://img.shields.io/badge/Pygame-2.0+-red.svg" alt="Pygame">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
+</div>
+
 # 🤖 Gesture-Controlled 3D Robot Simulation
 
 This is a group project for the Computer Graphics course (KE-7112), focused on integrating computer vision with real-time 3D graphics. The system uses advanced hand tracking to control a virtual robot in a custom-rendered environment.
@@ -21,6 +29,18 @@ Our application leverages **MediaPipe** for real-time hand gesture tracking and 
   - **Rotation Control** – via three-finger pinch
   - **Scale Control** – via two-handed pinch
 - 💡 Designed for extensibility toward full humanoid robot simulation
+
+## 🏗️ Project Structure
+
+```
+vision_control_graphic/
+├── main.py              # Main application and input loop
+├── mediapipe_hand.py    # Gesture recognition with MediaPipe
+├── robot_renderer.py    # Robot and object rendering functions
+├── transformations.py   # Camera and transformation utilities
+├── requirements.txt     # Python dependencies
+└── README.md            # This file
+```
 
 ## 🖥️ System Requirements
 
